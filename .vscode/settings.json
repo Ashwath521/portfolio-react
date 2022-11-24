@@ -6,5 +6,8 @@
 		"source.fixAll.eslint": true,
 		"source.fixAll.format": true
 	},
-	"cSpell.words": ["headlessui"]
+	"cSpell.words": ["headlessui"],
+	"eslint.workingDirectories": [
+		"./{PATH_TO_CLIENT}" // replace {PATH_TO_CLIENT} with you own path
+	]
 }
