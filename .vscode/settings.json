@@ -1,13 +1,17 @@
 {
-	"editor.formatOnPaste": true,
-	"editor.formatOnSave": true,
-	"editor.defaultFormatter": "esbenp.prettier-vscode",
-	"editor.codeActionsOnSave": {
-		"source.fixAll.eslint": true,
-		"source.fixAll.format": true
-	},
-	"cSpell.words": ["headlessui"],
-	"eslint.workingDirectories": [
-		"./{PATH_TO_CLIENT}" // replace {PATH_TO_CLIENT} with you own path
-	]
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.format": true
+  },
+  "cSpell.words": ["headlessui"],
+  "eslint.workingDirectories": [
+    "./{PATH_TO_CLIENT}" // replace {PATH_TO_CLIENT} with you own path
+  ],
+  "editor.fontLigatures": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
