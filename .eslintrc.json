@@ -23,7 +23,6 @@
     "no-undef": "off",
     "react/jsx-uses-react": "off",
     "react/react-in-jsx-scope": "off",
-    "linebreak-style": ["error", "unix"],
     "require-jsdoc": "off",
     "valid-jsdoc": "off",
     "camelcase": [
