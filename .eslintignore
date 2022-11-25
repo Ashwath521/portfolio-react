@@ -1,0 +1,10 @@
+.husky
+.vscode
+node_modules
+public
+*.d.ts
+*.config.js
+types
+package-lock.json
+tsconfig.json
+
