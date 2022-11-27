@@ -2,6 +2,19 @@ module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     extend: {
+      keyframes: {
+        wiggle: {
+          '0%, 100%': {
+            transform: 'rotate(-10deg)',
+          },
+          '50%': {
+            transform: 'rotate(15deg)',
+          },
+        },
+      },
+      animation: {
+        wiggle: 'wiggle 8s ease-in 1',
+      },
       colors: {
         primary: {
           50: '#f5f5f6',

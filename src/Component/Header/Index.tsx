@@ -3,10 +3,11 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn'
 import GitHubIcon from '@mui/icons-material/GitHub'
 import LightbulbIcon from '@mui/icons-material/Lightbulb'
 import IconButton from '@mui/material/IconButton'
+import TwitterIcon from '@mui/icons-material/Twitter'
 import { headerProps } from './props'
 
 const Header = (props: headerProps) => {
-  const { githubLink, linkedInLink } = props
+  const { githubLink, linkedInLink, twitterLink } = props
 
   return (
     <div className="flex justify-between mt-10">
@@ -27,6 +28,11 @@ const Header = (props: headerProps) => {
         <a target="_blank" rel="noreferrer" href={linkedInLink} className="ml-1">
           <IconButton className="text-black">
             <LinkedInIcon className="text-black hover:text-secondary-500" />
+          </IconButton>
+        </a>
+        <a target="_blank" rel="noreferrer" href={twitterLink} className="ml-1">
+          <IconButton className="text-black">
+            <TwitterIcon className="text-black hover:text-secondary-500" />
           </IconButton>
         </a>
       </div>
